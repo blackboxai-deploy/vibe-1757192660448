@@ -1,0 +1,17 @@
+{
+    "search_criteria": {
+        "locations": ["Paris", "Lyon", "Marseille"],
+        "price_range": [500, 2000],
+        "size_range": [20, 100]
+    },
+    "api_keys": {
+        "twilio_sid": "your_twilio_sid",
+        "twilio_auth_token": "your_twilio_auth_token"
+    },
+    "email": {
+        "smtp_server": "smtp.example.com",
+        "smtp_port": 587,
+        "smtp_user": "your_email@example.com",
+        "smtp_password": "your_email_password"
+    }
+}
