@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 from flask import Flask, render_template
 from database.database import SessionLocal, init_db
 from database.models import Apartment, Contact
